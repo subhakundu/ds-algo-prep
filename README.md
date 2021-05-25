@@ -1,1 +1,1 @@
-# ds-algo-prep
+# Data Structures and Algorithm Preparations
