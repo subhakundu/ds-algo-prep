@@ -53,8 +53,7 @@ class Solution {
         for(int v=0; v<V; v++) {
             transposeGraph.add(new ArrayList<>());
         }
-        for (int v = 0; v < V; v++)
-        {
+        for (int v = 0; v < V; v++) {
             for(Integer i: adj.get(v)) {
                 transposeGraph.get(i).add(v);
             }
