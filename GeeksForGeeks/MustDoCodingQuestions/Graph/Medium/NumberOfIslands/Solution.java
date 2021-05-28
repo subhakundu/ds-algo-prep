@@ -1,7 +1,7 @@
 /**
  * https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1
  * I have kept the Solution class only. Driver code is ommitted as I don't need
- * it. It can be done with reversing second part and comparing as well.
+ * it.
  *
  * Time Complexity: O(ROWS*COLUMS).
  * Space Complexity: O(ROWS*COLUMS).
