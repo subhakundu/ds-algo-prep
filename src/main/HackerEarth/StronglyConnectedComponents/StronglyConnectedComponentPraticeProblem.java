@@ -21,6 +21,9 @@ class TestClass {
     private static int evenCount = 0, oddCount = 0;
     public static void main(String args[] ) throws Exception {
         // Write your code here
+        /**
+         * Code for taking input.
+         */
         int numberOfVertices, numberOfEdges;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String lines = br.readLine();
@@ -40,12 +43,22 @@ class TestClass {
         }
         visitingOrderStack = new Stack<>();
         visitedSet = new HashSet<>();
+        /**
+         * Populating stack for capturing
+         * visiting order information.
+         */
         for(int v=1; v<=numberOfVertices; v++) {
             if(!visitedSet.contains(v)) {
                 dfsAndFillStackIfRequiredOrPopulateConnectedComponentList(adjacencyList, v, true, null);
             }
         }
+        /**
+         * Getting Transpose graph.
+         */
         adjacencyList = getTransposeGraph(adjacencyList);
+        /**
+         * Computing Strongly Connected Componenet.
+         */
         stronglyConnectedComponent(adjacencyList);
         System.out.println(oddCount - evenCount);
     }
