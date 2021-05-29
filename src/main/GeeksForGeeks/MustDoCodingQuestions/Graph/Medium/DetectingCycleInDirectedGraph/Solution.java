@@ -2,7 +2,7 @@
  * Problem: https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
  * Need to maintain an auxiliary data strucure for capturing recursion stack. It will help
  * us in determining if current vertex is being visited in current traversal.
- * 
+ *
  * Time Complexity: O(V + E)
  * Space Complexity: O(V)
  */
