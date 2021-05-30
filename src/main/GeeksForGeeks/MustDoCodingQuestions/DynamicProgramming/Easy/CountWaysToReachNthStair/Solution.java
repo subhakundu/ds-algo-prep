@@ -1,4 +1,4 @@
-package main.GeeksForGeeks.MustDoCodingQuestions.DynamicProgramming.Easy;
+package main.GeeksForGeeks.MustDoCodingQuestions.DynamicProgramming.Easy.CountWaysToReachNthStair;
 
 /**
  * Problem: https://practice.geeksforgeeks.org/problems/count-ways-to-reach-the-nth-stair-1587115620/1
